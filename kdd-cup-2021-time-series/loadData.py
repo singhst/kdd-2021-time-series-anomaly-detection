@@ -13,9 +13,35 @@ class DataLoader():
 
     loader = DataLoader(path)
 
+    loader.loadData()
+
     data_df_list = loader.getDataInDfList()
 
     print(data_df_list[0][0])
+
+    print(data_df_list[0])
+
+    Output
+    ---
+    .................................................................................................
+    .................................................................................................
+    ........................................................001_UCR_Anomaly_35000.txt
+    ('001_UCR_Anomaly_35000.txt',
+                   values  label
+        0     -142.928840  train
+        1     -164.932650  train
+        2     -178.507420  train
+        3     -181.063060  train
+        4     -172.906480  train
+        ...           ...    ...
+        79790   17.201994   test
+        79791   24.004032   test
+        79792   27.221281   test
+        79793   34.907786   test
+        79794   21.102266   test
+
+        [79795 rows x 2 columns]
+        )
     '''
 
     def __init__(self,
@@ -27,7 +53,7 @@ class DataLoader():
         self.train_datasets = []
         self.test_datasets = []
 
-        self.loadData()
+        # self.loadData()
 
     def loadData(self):
         ''' Just load all the .txt into memory in `pandas.DataFrame` and `numpy.array` format.
@@ -90,5 +116,7 @@ class DataLoader():
 if __name__ == "__main__":
     path = '../data-sets/KDD-Cup/data/'
     loader = DataLoader(path)
+    loader.loadData()
     data_df_list = loader.getDataInDfList()
     print(data_df_list[0][0])
+    print(data_df_list[0])
