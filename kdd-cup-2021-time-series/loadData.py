@@ -1,3 +1,8 @@
+'''
+A script to load all .csv into memory.
+Please move the data by the following path '../data-sets/KDD-Cup/data/'
+'''
+
 import os
 # from tqdm import tqdm
 import pandas as pd

@@ -2,7 +2,13 @@
 
 https://www.kdd.org/kdd2021/
 
+# Files
 
+The data should be downloaded and unzipped in path `../data-sets/KDD-Cup/data/` from the `.ipynb` and `loadData.py`
+
+## Usage 
+
+`loadData.py`: Load all `.csv` under `../data-sets/KDD-Cup/data/` into memory. Help facilitate loading data.
 
 # Setup
 1. Initialize the VirtualEnv:
