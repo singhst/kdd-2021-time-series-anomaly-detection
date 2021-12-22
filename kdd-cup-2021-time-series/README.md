@@ -1,3 +1,3 @@
 Missing
 
-1. `reauirement.txt`
+1. `requirement.txt`
