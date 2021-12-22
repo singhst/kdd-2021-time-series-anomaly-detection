@@ -6,6 +6,8 @@ https://www.kdd.org/kdd2021/
 
 <img src="kdd-cup-2021-time-series/results/old 20211130 2300/anomaly-001_UCR_Anomaly_35000-212windowsize-211autoperiod__[(51743, 52054), (69140, 69369)].png"/>
 
+<img src="kdd-cup-2021-time-series/results/old 20211130 2300/anomaly-054_UCR_Anomaly_2700-60windowsize-59autoperiod__[(2878, 2888), (3111, 3140), (5681, 5701), (5802, 5899), (5930, 5962), (6048, 6054), (6304, 6312)].png" />
+
 # Files
 
 The data should be downloaded and unzipped in path `../data-sets/KDD-Cup/data/` from the `.ipynb` and `loadData.py`
