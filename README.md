@@ -4,7 +4,7 @@ https://www.kdd.org/kdd2021/
 
 # Result
 
-<img src=“img/ alt=“Subject Pronouns” style=“margin-right: 10px;” />
+<img src="kdd-cup-2021-time-series/results/old 20211130 2300/anomaly-001_UCR_Anomaly_35000-212windowsize-211autoperiod__[(51743, 52054), (69140, 69369)].png"/>
 
 # Files
 
