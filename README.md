@@ -2,6 +2,10 @@
 
 https://www.kdd.org/kdd2021/
 
+# Result
+
+<img src=“img/ alt=“Subject Pronouns” style=“margin-right: 10px;” />
+
 # Files
 
 The data should be downloaded and unzipped in path `../data-sets/KDD-Cup/data/` from the `.ipynb` and `loadData.py`
