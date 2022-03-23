@@ -1,6 +1,9 @@
 # kdd-2021-time-series-anomaly-detection
 
+Detecting anomaly in time series data by Autoencoder.
+
 https://www.kdd.org/kdd2021/
+
 
 # Result
 
